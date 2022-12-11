@@ -1,0 +1,185 @@
+.signup__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem;
+  gap: 1rem;
+  width: 40rem;
+  height: 46rem;
+  position: relative;
+}
+.signup__greeting {
+  margin-bottom: 3rem;
+  font-weight: 500;
+  text-align: center;
+  color: #9a9a9a;
+}
+.input {
+  margin-bottom: 2rem;
+  width: 100%;
+  padding: 1.5rem 2.2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 2px 0.2rem rgba(198, 198, 198, 0.933);
+  border: none;
+  color: #9a9a9a;
+  font-weight: 600;
+}
+input:focus {
+  outline: none;
+}
+.input::placeholder {
+  color: #9a9a9a;
+  font-weight: 600;
+}
+.input--invalid {
+  margin-bottom: 2rem;
+  width: 100%;
+  font-weight: 600;
+  color: #9a9a9a;
+  padding: 1.5rem 2.2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 2px 0.2rem rgba(198, 198, 198, 0.933);
+  border: none;
+  border-bottom: 5px solid rgb(234, 109, 109);
+}
+.btn-cta {
+  margin: 1.2rem 0;
+  padding: 1.4rem 8.6rem;
+  background-color: #e29e71;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 1rem;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+.btn-cta:hover {
+  background-color: #e77f39;
+}
+.btn-cta:active {
+  transform: scale(0.9);
+}
+.label-email,
+.label-password {
+  position: absolute;
+}
+.label-email {
+  top: 45%;
+  left: 80%;
+}
+.label-password {
+  top: 61.5%;
+  left: 80%;
+}
+.login-ack {
+  font-size: 1.2rem;
+}
+.login-ack-link {
+  margin-top: 2rem;
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+  padding-left: 0.6rem;
+}
+.login-success {
+  font-size: 1.3rem;
+  position: absolute;
+  top: 35%;
+  font-size: 1.4rem;
+  color: #aeff70;
+}
+
+@media (max-width: 28em) {
+  .signup__form {
+    width: 35rem;
+    position: relative;
+  }
+  .signup__greeting {
+    margin-bottom: 3rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-align: center;
+    color: #9a9a9a;
+  }
+  .btn-cta {
+    margin: 1.2rem 0;
+    padding: 1.4rem 8.6rem;
+    background-color: #e29e71;
+    border: none;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-radius: 1rem;
+    color: #fff;
+    transition: all 0.5s ease;
+  }
+  .btn-cta:hover {
+    background-color: #e77f39;
+  }
+  .btn-cta:active {
+    transform: scale(0.9);
+  }
+
+  .label-email {
+    top: 42.6%;
+  }
+  .label-password {
+    top: 60%;
+  }
+}
+
+@media (max-width: 22.75em) {
+  .signup__form {
+    width: 30rem;
+    height: 44rem;
+    position: relative;
+  }
+  .signup__greeting {
+    margin-bottom: 3rem;
+    font-size: 1.4rem;
+  }
+  .btn-cta {
+    font-size: 1.4rem;
+  }
+
+  .label-email {
+    top: 41.6%;
+    left: 77%;
+  }
+  .label-password {
+    left: 77%;
+    top: 55%;
+  }
+  .login-ack {
+    font-size: 1rem;
+  }
+  .input {
+    margin-bottom: 1rem;
+    width: 100%;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 2px 0.2rem rgba(198, 198, 198, 0.933);
+    border: none;
+    color: #9a9a9a;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 19.625em) {
+  .signup__form {
+    width: 27rem;
+    height: 42rem;
+    position: relative;
+    padding: 2rem;
+  }
+  .signup__greeting {
+  }
+
+  .label-email {
+    top: 38.6%;
+    left: 77%;
+  }
+  .label-password {
+    left: 77%;
+    top: 52%;
+  }
+}

@@ -1,0 +1,338 @@
+.pet--card {
+  min-width: 35rem;
+  margin: 0 3.6rem;
+}
+.pet--img--box {
+  width: 100%;
+  height: 30rem;
+  position: relative;
+}
+.pet--img--box .pet--img {
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.pet--name {
+  font-size: 2rem;
+  color: #fff;
+  position: absolute;
+  top: 80%;
+  background-color: #e29e71;
+  z-index: 1;
+  left: 10%;
+  width: 80%;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  text-align: center;
+}
+.pet--info--wrapper {
+}
+.pet--info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.4rem;
+  font-size: 1.8rem;
+  height: 32rem;
+  z-index: 4;
+  background-color: #fff;
+  padding: 3.8rem 3rem 3rem 3rem;
+  transform: translateY(-2rem);
+  border-radius: 2rem;
+}
+.pet--info__header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 6rem;
+  grid-row-gap: 2rem;
+}
+.pet--info__header p {
+  display: flex;
+  gap: 1.2rem;
+  font-size: 1.5rem;
+  align-items: center;
+}
+.pet-desc p {
+  font-size: 1.5rem;
+}
+.cta {
+  margin: 2rem 0;
+
+  align-self: center;
+}
+.cta .card--link {
+  text-decoration: none;
+  color: #fff;
+  background-color: #000;
+  font-size: 1.5rem;
+  align-self: center;
+  border-radius: 2rem;
+  padding: 1.4rem 6rem;
+  font-weight: 500;
+}
+@media (max-width: 63em) {
+  .pet--card {
+    min-width: 35rem;
+    margin: 0 3.6rem;
+  }
+  .pet--img--box {
+    width: 100%;
+    height: 25rem;
+    position: relative;
+  }
+  .pet--img--box .pet--img {
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  .pet--name {
+    font-size: 1.3rem;
+
+    left: 25%;
+    width: 50%;
+    padding: 1rem 2rem;
+  }
+  .pet--info--wrapper {
+  }
+  .pet--info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.6rem;
+    font-size: 1.2rem;
+    height: 27rem;
+    z-index: 4;
+    background-color: #fff;
+    padding: 3.8rem 3rem 3rem 3rem;
+    transform: translateY(-2rem);
+    border-radius: 2rem;
+  }
+  .pet--info__header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 8rem;
+    grid-row-gap: 2rem;
+  }
+  .pet--info__header p {
+    display: flex;
+    gap: 1.2rem;
+    font-size: 1.1rem;
+    align-items: center;
+  }
+  .pet-desc p {
+    font-size: 1.2rem;
+  }
+  .cta {
+    margin: 2rem 0;
+
+    align-self: center;
+  }
+  .cta .card--link {
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    font-size: 1.3rem;
+    align-self: center;
+    border-radius: 2rem;
+    padding: 1.4rem 2rem;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 52em) {
+  .pet--card {
+    width: 40rem;
+    margin: 0 3.6rem;
+  }
+  .pet--img--box {
+    width: 100%;
+    height: 25rem;
+    position: relative;
+  }
+
+  .pet--info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.4rem;
+    height: 32rem;
+
+    padding: 4.5rem 3rem 3rem 3rem;
+  }
+
+  .pet--info__header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 6rem;
+    grid-row-gap: 2rem;
+  }
+  .pet--info__header p {
+    gap: 1.4rem;
+    font-size: 1.6rem;
+  }
+  .pet-desc p {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .pet--name {
+    font-size: 1.8rem;
+    position: absolute;
+    top: 80%;
+    background-color: #e29e71;
+    z-index: 1;
+    left: 20%;
+    width: 60%;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    text-align: center;
+  }
+  .cta .card--link {
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    font-size: 1.8rem;
+    align-self: center;
+    border-radius: 2rem;
+    padding: 1rem 7rem;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 27em) {
+  .pet--card {
+    width: 30rem;
+    margin: 0 3.6rem;
+  }
+  .pet--img--box {
+    width: 100%;
+    height: 20rem;
+    position: relative;
+  }
+
+  .pet--info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.4rem;
+    height: 28rem;
+
+    padding: 4.5rem 3rem 3rem 3rem;
+  }
+
+  .pet--info__header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 6rem;
+    grid-row-gap: 2rem;
+  }
+  .pet--info__header p {
+    gap: 1.4rem;
+    font-size: 1.3rem;
+  }
+  .pet-desc p {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .pet--name {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 80%;
+    background-color: #e29e71;
+    z-index: 1;
+    left: 20%;
+    width: 60%;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    text-align: center;
+  }
+  .cta .card--link {
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    font-size: 1.3rem;
+    align-self: center;
+    border-radius: 2rem;
+    padding: 1rem 7rem;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 23.5em) {
+  .pet--card {
+    min-width: 8rem;
+    margin: 0 3.6rem;
+  }
+  .pet--img--box {
+    width: 100%;
+    height: 20rem;
+    position: relative;
+  }
+
+  .pet--info {
+    gap: 1.4rem;
+    height: 28rem;
+
+    padding: 4.5rem 3rem 3rem 3rem;
+  }
+
+  .pet--info__header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 6rem;
+    grid-row-gap: 2rem;
+  }
+  .pet--info__header p {
+    gap: 1.4rem;
+    font-size: 1.1rem;
+  }
+  .pet-desc p {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .pet--name {
+    font-size: 1.3rem;
+    position: absolute;
+    top: 80%;
+    background-color: #e29e71;
+    z-index: 1;
+    left: 25%;
+    width: 55%;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    text-align: center;
+  }
+  .cta .card--link {
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    font-size: 1.3rem;
+    align-self: center;
+    border-radius: 2rem;
+    padding: 1rem 5.2rem;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 19.875em) {
+  .pet--card {
+  }
+  .pet--img--box {
+    width: 100%;
+    height: 20rem;
+    position: relative;
+  }
+
+  .pet--info {
+    gap: 1.4rem;
+    height: 27.6rem;
+
+    padding: 4.5rem 3rem 3rem 3rem;
+  }
+}

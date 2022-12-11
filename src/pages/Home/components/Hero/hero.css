@@ -1,0 +1,385 @@
+.hero {
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 86%;
+  background-image: url("https://cdn2.thedogapi.com/images/PGu6NhvGG.jpg");
+  width: 94%;
+  background-position: 10rem -10rem;
+  border-radius: 3rem;
+  background-size: cover;
+}
+.hero img {
+  object-fit: cover;
+
+  height: 100%;
+  width: 100%;
+}
+.hero--heading {
+  position: absolute;
+  font-weight: 600;
+  line-height: 1.2;
+  top: 45%;
+  left: 50%;
+  color: #fff;
+  font-size: 6rem;
+  font-family: "Montserrat";
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.span-bodoni {
+  font-family: "Libre Bodoni";
+  font-size: 7rem;
+  font-weight: 500;
+}
+.span-cormorant {
+  font-weight: 400;
+  font-family: "Bodoni Moda";
+  font-size: 7rem;
+  font-weight: 500;
+}
+.hero-btn {
+  position: absolute;
+  font-weight: 400;
+  text-transform: uppercase;
+  top: 66%;
+  left: 50%;
+  color: #000;
+  font-size: 1.4rem;
+  text-decoration: none;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 1rem 4.2rem;
+  border-radius: 2rem;
+  transition: all 0.5s ease-in;
+}
+.hero-btn:hover {
+  background: #000;
+  color: #fff;
+}
+@media (max-width: 80em) {
+  .hero {
+    width: 95%;
+    border-radius: 2rem;
+  }
+  .hero--heading {
+    width: 60%;
+    font-size: 5rem;
+  }
+  .span-cormorant {
+    font-size: 5rem;
+  }
+  .span-bodoni {
+    font-size: 6rem;
+  }
+
+  .hero-btn {
+    top: 63%;
+    left: 50%;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 60em) {
+  .hero {
+    width: 96%;
+    border-radius: 2rem;
+  }
+  .hero--heading {
+    width: 60%;
+    font-size: 4.3rem;
+  }
+  .span-cormorant {
+    font-size: 4.3rem;
+  }
+  .span-bodoni {
+    font-size: 5.2rem;
+  }
+
+  .hero-btn {
+    top: 60%;
+    left: 50%;
+    font-size: 0.8rem;
+    padding: 1rem 3.2rem;
+  }
+}
+
+@media (max-width: 56em) {
+  .hero {
+    width: 96%;
+    height: 86%;
+    border-radius: 2rem;
+  }
+  .hero--heading {
+    width: 60%;
+    font-size: 4.3rem;
+  }
+  .span-cormorant {
+    font-size: 4.3rem;
+  }
+  .span-bodoni {
+    font-size: 5.2rem;
+  }
+
+  .hero-btn {
+    top: 60%;
+    left: 50%;
+    font-size: 0.8rem;
+    padding: 1rem 3.2rem;
+  }
+}
+@media (max-width: 52em) {
+  .hero {
+    top: 54%;
+    width: 96%;
+    height: 86%;
+    border-radius: 2rem;
+  }
+  .hero--heading {
+    font-size: 4rem;
+  }
+  .span-cormorant {
+    font-size: 4rem;
+  }
+  .span-bodoni {
+    font-size: 5rem;
+  }
+
+  .hero-btn {
+    top: 60%;
+    left: 50%;
+    font-size: 0.8rem;
+    padding: 1rem 2.8rem;
+  }
+}
+
+@media (max-width: 48em) {
+  .hero {
+    top: 54%;
+    width: 94%;
+    height: 84%;
+    background-position: 4rem 16%;
+
+    border-radius: 2rem;
+  }
+  .hero--heading {
+    font-size: 6.8rem;
+  }
+  .span-cormorant {
+    font-size: 6.8rem;
+  }
+  .span-bodoni {
+    font-size: 7.8rem;
+  }
+
+  .hero-btn {
+    top: 90%;
+    left: 50%;
+    font-size: 1.4rem;
+    padding: 1rem 3.2rem;
+  }
+}
+
+@media (max-width: 33em) {
+  .hero {
+    top: 54%;
+    width: 92%;
+    height: 84%;
+    background-position: 4rem 16%;
+
+    border-radius: 2rem;
+  }
+  .hero--heading {
+    font-size: 6.4rem;
+    top: 40%;
+
+    line-height: 1.1;
+  }
+  .span-cormorant {
+    font-size: 6.4rem;
+  }
+  .span-bodoni {
+    font-size: 7.4rem;
+  }
+
+  .hero-btn {
+    top: 83%;
+    left: 50%;
+    font-size: 1.6rem;
+    border-radius: 3rem;
+    padding: 1.4rem 5.8rem;
+  }
+}
+
+@media (max-width: 31.125em) {
+  .hero {
+    top: 54%;
+    width: 92%;
+    height: 84%;
+    background-position: 4rem 16%;
+
+    border-radius: 2rem;
+  }
+  .hero--heading {
+    font-size: 6rem;
+    top: 40%;
+    line-height: 1.09;
+  }
+  .span-cormorant {
+    font-size: 6rem;
+  }
+  .span-bodoni {
+    font-size: 7rem;
+  }
+
+  .hero-btn {
+    top: 83%;
+    left: 50%;
+    font-size: 1.6rem;
+    border-radius: 3rem;
+    padding: 1.4rem 5.8rem;
+  }
+}
+
+@media (max-width: 28em) {
+  .hero {
+    top: 54%;
+    width: 92%;
+    height: 84%;
+    background-position: -5rem 16%;
+    border-radius: 2rem;
+  }
+  .hero--heading {
+    font-size: 5.6rem;
+    top: 40%;
+    left: 48%;
+    line-height: 1.09;
+  }
+  .span-cormorant {
+    font-size: 5.6rem;
+  }
+  .span-bodoni {
+    font-size: 6.4rem;
+  }
+}
+
+@media (max-width: 25.875em) {
+  .hero {
+    top: 52%;
+    width: 91%;
+    height: 88%;
+    background-position: -5rem 16%;
+    border-radius: 2rem;
+  }
+  .hero--heading {
+    font-size: 5.4rem;
+    top: 39%;
+    left: 48%;
+    line-height: 1.09;
+  }
+  .span-cormorant {
+    font-size: 5.4rem;
+  }
+  .span-bodoni {
+    font-size: 6.2rem;
+  }
+  .hero-btn {
+    top: 74%;
+    left: 50%;
+    font-size: 1.2rem;
+    padding: 1.4rem 4.6rem;
+  }
+}
+
+@media (max-width: 23.5em) {
+  .hero {
+    top: 52%;
+    width: 91%;
+    height: 88%;
+    background-position: -10rem 16%;
+  }
+  .hero--heading {
+    font-size: 5rem;
+    top: 39%;
+    left: 46%;
+  }
+  .span-cormorant {
+    font-size: 5rem;
+  }
+  .span-bodoni {
+    font-size: 5.8rem;
+  }
+  .hero-btn {
+    top: 74%;
+    left: 50%;
+    font-size: 1.2rem;
+
+    padding: 1.4rem 4.8rem;
+  }
+}
+
+@media (max-width: 22.6875em) {
+  .hero {
+    top: 52%;
+    width: 91%;
+    height: 88%;
+    background-position: -10rem 16%;
+    border-radius: 2rem;
+  }
+  .hero--heading {
+    font-size: 4.7rem;
+    top: 39%;
+    left: 46%;
+    line-height: 1.09;
+  }
+  .span-cormorant {
+    font-size: 4.7rem;
+  }
+  .span-bodoni {
+    font-size: 5.5rem;
+  }
+  .hero-btn {
+    top: 74%;
+    left: 50%;
+    font-size: 1.2rem;
+    border-radius: 3rem;
+    padding: 1.4rem 4.8rem;
+  }
+}
+
+@media (max-width: 20.875em) {
+  .hero {
+  }
+  .hero--heading {
+    font-size: 4.4rem;
+  }
+  .span-cormorant {
+    font-size: 4.4rem;
+  }
+  .span-bodoni {
+    font-size: 5.2rem;
+  }
+  .hero-btn {
+    top: 70%;
+
+    padding: 1.4rem 4rem;
+  }
+}
+@media (max-width: 19.1875em) {
+  .hero {
+  }
+  .hero--heading {
+    font-size: 4.2rem;
+  }
+  .span-cormorant {
+    font-size: 4.2rem;
+  }
+  .span-bodoni {
+    font-size: 4.8rem;
+  }
+  .hero-btn {
+    top: 68%;
+
+    padding: 1.4rem 4rem;
+  }
+}

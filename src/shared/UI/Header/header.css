@@ -1,0 +1,87 @@
+.header {
+  min-height: 9vh;
+  margin: 0 auto;
+  width: 92%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo a {
+  color: #000;
+  font-size: 2.3rem;
+  font-weight: 400;
+}
+.header--auth {
+}
+.link,
+.link--pet {
+  font-weight: 600;
+  padding-left: 2rem;
+  text-decoration: none;
+  color: #000;
+  font-size: 1.8rem;
+}
+
+.burger {
+  display: none;
+}
+.line1 {
+  width: 5rem;
+  height: 2px;
+  background-color: #000;
+  margin: 0.7rem 0;
+}
+.line2 {
+  width: 5rem;
+  height: 2px;
+  background-color: #000;
+}
+.logout-btn {
+  border: none;
+  font-weight: 600;
+  padding-left: 2rem;
+  text-decoration: none;
+  color: #000;
+  font-size: 1.8rem;
+  background-color: transparent;
+}
+
+@media (max-width: 48em) {
+  .header {
+    width: 90%;
+  }
+  .link--pet {
+    font-size: 1.5rem;
+    display: none;
+  }
+}
+@media (max-width: 46em) {
+  .link,
+  .logout-btn {
+    font-size: 1.6rem;
+  }
+  .logo a {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .link,
+  .logout-btn {
+    font-size: 1.5rem;
+  }
+  .logo a {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 30em) {
+  .link,
+  .logout-btn {
+    font-size: 1.4rem;
+  }
+
+  .logo a {
+    font-size: 1.7rem;
+  }
+}

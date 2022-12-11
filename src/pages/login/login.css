@@ -1,0 +1,11 @@
+.section__login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8rem 0;
+}
+.form__wrapper {
+  border-radius: 3rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 2rem 2rem 4rem;
+  background-color: #fff;
+}

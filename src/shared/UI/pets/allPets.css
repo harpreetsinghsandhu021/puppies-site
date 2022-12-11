@@ -1,0 +1,18 @@
+.pets-wrapper {
+  margin: 20rem 0 10rem 0;
+}
+.inner-wrapper {
+  display: flex;
+}
+@media (max-width: 52em) {
+  .inner-wrapper {
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+  }
+}
+@media (max-width: 19.875em) {
+  .inner-wrapper {
+    padding: 0 4rem;
+  }
+}

@@ -1,0 +1,42 @@
+.page--pets-wrapper {
+  margin: 5rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+  grid-row-gap: 8rem;
+}
+
+@media (max-width: 50em) {
+  .page--pets-wrapper {
+    justify-items: center;
+  }
+}
+@media (max-width: 24.5em) {
+  .page--pets-wrapper {
+    justify-items: center;
+    transform: translateX(-0.5rem);
+    grid-row-gap: 5rem;
+  }
+}
+@media (max-width: 23.5em) {
+  .page--pets-wrapper {
+    justify-items: start;
+  }
+}
+@media (max-width: 22.0625em) {
+  .page--pets-wrapper {
+    justify-items: start;
+    transform: translateX(-1.2rem);
+  }
+}
+@media (max-width: 21.125em) {
+  .page--pets-wrapper {
+    justify-items: start;
+    transform: translateX(-1.6rem);
+  }
+}
+@media (max-width: 20.75em) {
+  .page--pets-wrapper {
+    justify-items: start;
+    transform: translateX(-2rem);
+  }
+}
